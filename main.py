@@ -8,6 +8,8 @@ nltk.download('vader_lexicon')
 
 from nltk.sentiment import SentimentIntensityAnalyzer
 import assemblyai as aai
+aai.settings.api_key = "YOUR_API_KEY"
+
 import streamlit as st
 
 from transformers import pipeline
