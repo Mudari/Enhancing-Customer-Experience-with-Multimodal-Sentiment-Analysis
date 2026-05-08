@@ -1,6 +1,11 @@
 import pandas as pd
 # import streamlit as st
 import nltk
+
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('vader_lexicon')
+
 from nltk.sentiment import SentimentIntensityAnalyzer
 import assemblyai as aai
 import streamlit as st
